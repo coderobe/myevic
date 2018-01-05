@@ -1749,7 +1749,7 @@ const menu_t Object3DMenu =
 		{ String_Cube, 0, EVENT_EXIT_MENUS, 0 },
 		{ String_Octa, 0, EVENT_EXIT_MENUS, 0 },
 		{ String_Dodeca, 0, EVENT_EXIT_MENUS, 0 },
-		{ String_Isoca, 0, EVENT_EXIT_MENUS, 0 }
+		{ String_Icosa, 0, EVENT_EXIT_MENUS, 0 }
 	}
 };
 

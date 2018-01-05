@@ -453,7 +453,7 @@ const obj3d_t dodeca =
 	dodeca_lines
 };
 
-const pt3d_t isoca_points[] = 
+const pt3d_t icosa_points[] = 
 	{
 		{   0,  10,  16 }, //  0
 		{   0, -10,  16 }, //  1
@@ -469,7 +469,7 @@ const pt3d_t isoca_points[] =
 		{ -16,   0, -10 }, // 11
 	};
 
-const line3d_t isoca_lines[] = 
+const line3d_t icosa_lines[] = 
 	{
 		{  0,  1 },
 		{  0,  4 },
@@ -503,13 +503,13 @@ const line3d_t isoca_lines[] =
 		{  9, 11 }
 	};
 
-const obj3d_t isoca =
+const obj3d_t icosa =
 {
 	16, 11,
 	12,
 	30,
-	isoca_points,
-	isoca_lines
+	icosa_points,
+	icosa_lines
 };
 
 const obj3d_t *objects3d[] =
@@ -518,7 +518,7 @@ const obj3d_t *objects3d[] =
 		&cube,
 		&octa,
 		&dodeca,
-		&isoca
+		&icosa
 	};
 
 #define N3DOBJECTS (sizeof(objects3d)/sizeof(obj3d_t*))
